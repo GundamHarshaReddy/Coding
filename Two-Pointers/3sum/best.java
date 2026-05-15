@@ -4,7 +4,6 @@ class Solution {
         int n = nums.length;
         HashSet<List<Integer>> hs = new HashSet<>();
         for(int i=0;i<n-2;i++){
-
             //skip duplicates like [-1,-1 or 1,1,1]
             if(i>0 && nums[i]==nums[i-1]){
                 continue;
